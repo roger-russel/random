@@ -14,6 +14,8 @@ func main() {
 	fmt.Println(v)
 }
 
+// Time  O(n)
+// Space O(1)
 func (f *FiboImpl) Get(n int) int {
 	if n == 0 {
 		return 0
